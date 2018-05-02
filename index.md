@@ -11,14 +11,13 @@
 Week          | topics      | Biostar Handbook Sections
 ------------- | ------------|--------------------------
   1           | [Introduction to Linux and the command-line interface](IntroductionToLinux.html) |  1, 2, 4
-  2           | [Kinds of sequencing instruments](https://www.biostarhandbook.com/instruments/sequencing-instruments.html)|
+  2           | [Kinds of sequencing instruments](https://www.biostarhandbook.com/instruments/sequencing-instruments.html)|
   2           | [experimental design](ExperimentalDesign.html)  |   8, 9, 10
   2           | [data preprocessing and quality control](DataPreprocessing_QualityControl.html) |
   3           | [error correction and alignment](ErrorCorrectionAlignment.html) | 
   4           | Assembly - [transcriptomes](TranscriptomeAssembly.html) |
   4           | [genomes](GenomeSequencingAssembly.html)  | 22
-  5           | [Re-sequencing, alignment, structural variation](Week4-ResequencingAndAlignment.html)[
-](GenomeAnalysis_ChIP-seqDHS-seq3-Dconformation.html) | 17, 18, 23
+  5           | [Re-sequencing & alignment](ResequencingAndAlignment.html)[Structural variation](GenomeAnalysis_ChIP-seqDHS-seq3-Dconformation.html) | 17, 18, 23
   6           | [Discovery and genotyping of genetic variation](DiscoveryGenotypingGeneticVariation.html) | 
   7           | R and R Studio - lectures and exercises through [Software Carpentry](http://swcarpentry.github.io/r-novice-gapminder/) website, sections 1 - 8 | 
   8           | R and R Studio, continued - sections 9 - 12. Advanced: [Data Carpentry for Genomics](http://www.datacarpentry.org/lessons/#genomics-workshop) | 
