@@ -1,31 +1,22 @@
 
-
- Semester Overview, 2018
+ Semester Overview
 ========================
-
-![Image of DNA helix, command-line text, and scientist](Figures/syllabus_logo.jpg)
-==================================================================================
-
-###### <span style="font-weight: normal;">image credit: Lilian Matallana</span>
 
 #### Class meetings are in Room 6117 Jordan Hall from 8:30 to 10:20 am on Mondays, Wednesdays, and Fridays
 
 #### [The Biostar Handbook](https://www.biostarhandbook.com) is a resource for much of the reading
 
 ## Outline of Semester
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+
 Week          | topics      | Biostar Handbook Sections
 ------------- | ------------|--------------------------
   1           | [Introduction to Linux and the command-line interface](IntroductionToLinux.html) |  1, 2, 4
   2           | [Kinds of sequencing instruments](https://www.biostarhandbook.com/instruments/sequencing-instruments.html)|
-              | [experimental design](ExperimentalDesign.html)  |   8, 9, 10
-              | [data preprocessing and quality control](DataPreprocessing_QualityControl.html) |
+  2           | [experimental design](ExperimentalDesign.html)  |   8, 9, 10
+  2           | [data preprocessing and quality control](DataPreprocessing_QualityControl.html) |
   3           | [error correction and alignment](ErrorCorrectionAlignment.html) | 
   4           | Assembly - [transcriptomes](TranscriptomeAssembly.html) |
-              | [genomes](GenomeSequencingAssembly.html)  | 22
+  4           | [genomes](GenomeSequencingAssembly.html)  | 22
   5           | [Re-sequencing, alignment, structural variation](Week4-ResequencingAndAlignment.html)[
 ](GenomeAnalysis_ChIP-seqDHS-seq3-Dconformation.html) | 17, 18, 23
   6           | [Discovery and genotyping of genetic variation](DiscoveryGenotypingGeneticVariation.html) | 
@@ -35,8 +26,6 @@ Week          | topics      | Biostar Handbook Sections
   10          | [Genome analysis: ChIP-seq, DHS-seq, 3-D conformation](GenomeAnalysis_ChIP-seqDHS-seq3-Dconformation.html) |
   11          | [Linux command-line tools: awk, sed, and bash](Awk_Sed_Bash_Exercises.html) | 15
   12          | exploring parameter space - genome assembly, genetic variant analysis |
-
- 2 - 6 Apr
 
 
 
