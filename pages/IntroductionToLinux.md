@@ -11,7 +11,7 @@ The objective of these class sessions is to introduce participants to the Linux 
 
 ### Description
 
-Introductory [slides](assets/Class_Intro.pdf) provide an introduction to the course objectives and the Linux operating system in the first class session, and a [summary](assets/GuidingPrinciplesOfUnix.pdf) of Chapter 1 from Eric Raymond’s book [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/html/)) is used as a framework for discussion of differences between the Linux command-line interface and graphical interfaces. 
+Introductory [slides](../assets/Class_Intro.pdf) provide an introduction to the course objectives and the Linux operating system in the first class session, and a [summary](../assets/GuidingPrinciplesOfUnix.pdf) of Chapter 1 from Eric Raymond’s book [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/html/)) is used as a framework for discussion of differences between the Linux command-line interface and graphical interfaces. 
 
 ### Why Linux?
 
@@ -26,9 +26,9 @@ DNA sequence data and most results of analysis are stored in plain text format, 
 
 ### Exercises
 
-1.  An [Introduction to Linux and Lubuntu 16.04](assets/Lubuntu16.04_Intro_BIT815.pdf) is a tutorial to guide participants through an 8-step introduction to the Lubuntu 16.04 operating system used for most class computing exercises.  
-1.  A list of useful [Linux commands](assets/LinuxCommandReference.pdf) is by no means a comprehensive list, but instead focuses on basic commands that meet common needs.
-1.  Example files for a self-assessment [quiz](assets/quiz1.txt) are at [quiz\_week1.tgz](assets/quiz_week1.tgz)
+1.  An [Introduction to Linux and Lubuntu 16.04](../assets/Lubuntu16.04_Intro_BIT815.pdf) is a tutorial to guide participants through an 8-step introduction to the Lubuntu 16.04 operating system used for most class computing exercises.  
+1.  A list of useful [Linux commands](../assets/LinuxCommandReference.pdf) is by no means a comprehensive list, but instead focuses on basic commands that meet common needs.
+1.  Example files for a self-assessment [quiz](../assets/quiz1.txt) are at [quiz\_week1.tgz](../assets/quiz_week1.tgz)
 1.  Some links to useful websites with more information about Linux and the bash shell:
   * [The BashGuide](http://mywiki.wooledge.org/BashGuide)
   * [An A-Z Index of the Bash Command Line](https://ss64.com/bash/)
@@ -42,7 +42,7 @@ DNA sequence data and most results of analysis are stored in plain text format, 
 *  The [Software Carpentry](https://software-carpentry.org/lessons/) website has a series of tutorials with introductions to many aspects of Linux computing. The lessons entitled The Unix Shell and Programming with R are particularly relevant to this course, because we use the shell a lot throughout the course, and R is important in the section on transcriptome analysis.
 * Analysis of Next-Generation Sequencing Data workshops (ANGUS) have been taught at Michigan State in the past, and in 2017 moved to UC-Davis. Course materials are available [online](https://angus.readthedocs.io/en/2017/index.html). The class uses cloud computing instances that are configured differently, so the exercises won't necessarily work exactly the same on the VCL machine image we are using, but the course materials do contain useful information about bioinformatics applications and tools.
 * More information on regular expressions is available at [A Brief Introduction to Regular Expressions](http://tldp.org/LDP/abs/html/regexp.html) at The Linux Documentation Project webpage.
-* The [FileGlobbing.pdf](assets/FileGlobbing.pdf) and [RegularExpressions.pdf](assets/RegularExpressions.pdf) documents also provide more information on these pattern-matching tools.
+* The [FileGlobbing.pdf](../assets/FileGlobbing.pdf) and [RegularExpressions.pdf](../assets/RegularExpressions.pdf) documents also provide more information on these pattern-matching tools.
 * One aspect of command-line use is knowing when to use a particular command, and when it is not needed.  Many command-line utilities such as `<grep>`, `<cut>`, `<wc>`, `<sort>`, `<sed>`, and `<awk>` (among many others) accept filenames as arguments after the command, but will also accept input from `<stdin>` via a pipe. Other utilities, such as `<tr>`, do not accept a filename as an argument and only process data received from `<stdin>`.  Some people prefer to use the `<cat>` command to put data into a pipeline, even when the command being used could read the filename as an argument, simply for the sake of consistency and style (see this [StackOverflow discussion](https://stackoverflow.com/questions/11710552/useless-use-of-cat) as an example), while purists argue that using a command when it is not required means running two processes when one will do. This is rarely a problem, but can lead to differences in the commands used to accomplish the same result. For example, in chapter 5 of the Biostar Handbook called Ontologies, the section called Understand the GO data includes some manipulations of a file called goa\_human.gaf.gz, after downloading the file from the geneontology.org website.
 
 * Uncompress the GO file:</span>

@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-theme: jekyll-theme-slate
+
 title : BIT815
 description: Resources on command-line Linux bioinformatics for biologists
 author :
@@ -19,7 +19,7 @@ author :
   feedburner :
 
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
-production_url : https://rwhetten.github.io/
+production_url : https://rwhetten.github.io/BIT815
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
