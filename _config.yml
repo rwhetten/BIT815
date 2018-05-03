@@ -8,7 +8,9 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
+theme: jekyll-theme-slate
 title : BIT815
+description: Resources on command-line Linux bioinformatics for biologists
 author :
   name : Ross Whetten
   email : ross.whetten@gmail.com
