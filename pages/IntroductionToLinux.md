@@ -1,3 +1,9 @@
+---
+layout: page
+title: "IntroductionToLinux"
+description: "A brief introduction to Linux with links to resources"
+---
+{% include JB/setup %}
 
 ## BIT815: Deep Sequencing Data Analysis
 
