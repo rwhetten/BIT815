@@ -24,8 +24,8 @@ author :
 
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
 production_url : https://rwhetten.github.io/BIT815
-url           https://rwhetten.github.io
-baseurl       /BIT815
+url :          https://rwhetten.github.io
+baseurl :      /BIT815
 
 teaser: /assets/images/header.jpg
 
