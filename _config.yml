@@ -7,7 +7,11 @@ highlighter: rouge
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
-#
+theme minimal-mistakes-jekyll
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
 
 title : BIT815
 description: Resources on command-line Linux bioinformatics for biologists
@@ -20,11 +24,26 @@ author :
 
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
 production_url : https://rwhetten.github.io/BIT815
+url           https://rwhetten.github.io
+baseurl       /BIT815
+
+teaser: /assets/images/header.jpg
 
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
-
+defaults:
+  # _posts
+#  - scope:
+#      path: ""
+#      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: #true
+      related: #true
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -87,7 +106,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : false
+    provider : google
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
